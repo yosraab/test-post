@@ -1,0 +1,1 @@
+export const remoteAPI ='https://jsonplaceholder.typicode.com';
