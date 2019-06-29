@@ -22,7 +22,7 @@ import {fetchPostsByUser} from '../../actions/posts';
   async componentDidMount() {
     this.setState({ isLoading: true });
 
-   await this.props.fetchPostsByUser(this.props.navigation.getParam('id', 'NO-ID'));
+   await this.props.fetchPostsByUser(this.props.navigation.state.params.id);
     this.setState({
       data: this.props.posts, isLoading:false
     })

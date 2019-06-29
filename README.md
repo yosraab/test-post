@@ -6,7 +6,7 @@ Install React Native as described at https://facebook.github.io/react-native/doc
 after, clone the repo via git:
 
 ```bash
-git clone https://github.com/yosraab/test-posr.git
+git clone https://github.com/yosraab/test-post.git
 ```
 
 
